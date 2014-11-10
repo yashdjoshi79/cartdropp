@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="128pt" height="128pt" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<path fill="#f39c12" stroke="#f39c12" stroke-width="0.09375" opacity="1.00" d=" M 0.0 0.0 L 128.0 0.0 L 128.0 128.0 L 0.0 128.0 L 0.0 0.0 Z" />
+<path fill="#ebeff1" stroke="#ebeff1" stroke-width="0.09375" opacity="1.00" d=" M 47.0 35.0 C 58.7 35.0 70.3 35.0 82.0 35.0 C 82.0 38.0 82.0 41.0 82.0 44.0 C 70.3 44.0 58.7 44.0 47.0 44.0 C 47.0 41.0 47.0 38.0 47.0 35.0 Z" />
+<path fill="#eceff0" stroke="#eceff0" stroke-width="0.09375" opacity="1.00" d=" M 31.0 48.4 C 53.2 46.2 75.8 46.1 98.0 48.3 C 98.0 57.7 98.0 67.1 98.0 76.5 C 92.7 77.4 87.4 77.8 82.0 78.3 C 82.0 83.5 82.0 88.8 82.0 94.0 C 70.3 94.0 58.7 94.0 47.0 94.0 C 47.0 88.8 47.0 83.6 47.0 78.4 C 41.6 77.9 36.2 77.9 31.0 76.6 C 31.0 67.2 31.0 57.8 31.0 48.4 Z" />
+<path fill="#f39c12" stroke="#f39c12" stroke-width="0.09375" opacity="1.00" d=" M 88.1 54.0 C 90.0 53.1 91.9 52.2 93.8 51.4 C 93.8 53.1 93.8 54.9 93.8 56.6 C 91.9 55.8 90.0 54.9 88.1 54.0 Z" />
+<path fill="#f39c12" stroke="#f39c12" stroke-width="0.09375" opacity="1.00" d=" M 52.5 69.0 C 60.5 69.0 68.6 69.0 76.7 69.0 C 76.4 75.7 76.2 82.3 76.4 89.0 C 68.4 89.0 60.4 89.0 52.5 89.0 C 52.6 82.4 52.8 75.7 52.5 69.0 Z" />
+</svg>

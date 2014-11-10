@@ -1,0 +1,171 @@
+/* Application wide non-native CSS rules */
+.mainBody {
+	/* Background color set as workaround for Legacy Android issue:
+	https://github.com/AppGyver/steroids/issues/381 */
+	background-color: -webkit-linear-gradient(#ecf0f1,#bdc3c7, #ecf0f1);
+	background: -webkit-linear-gradient(#ecf0f1,#bdc3c7, #ecf0f1);
+}
+* {
+  -webkit-user-select: none;  /* Disable selection/copy of elements when tapping for a long time */
+  -webkit-touch-callout: none; /* Disable touch callouts */
+  font-family: 'quicksand', sans-serif;
+}
+
+input {
+  -webkit-user-select: text;  /* Allow selection for input elements */
+}
+
+.mainBody .row .col{
+text-align:center;
+}
+h2.textOnProfile{
+  color:white;
+  font-family: 'quicksand', sans-serif;
+}
+	
+.profile{
+	padding-left: 10%;
+	padding-top: 4%;
+	padding-right:3%;
+	background-color:#1aacc3;
+	background:#1aacc3;
+}
+#caption{
+	text-align:center;
+	font-weight: bold;
+	font-family: 'quicksand', sans-serif;
+	font-size: 5vw;
+}
+
+.halfscreen{
+    height: 100%;
+	margin: 0 auto;
+}
+.halfscreen .scrollingLeft{
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	position: static;
+	width:50%;
+    float: left;
+	height:100%;
+}
+
+.halfscreen .scrollingLeft .list{
+    border: .5px solid #a1a1a1;
+}
+  
+.halfscreen .scrollingRight{
+    float: left;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	position: static;
+    height: 100%;
+	width:50%;
+}
+
+/*5 and 5s
+
+@media screen and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+{
+.mainBody .row{
+padding-left: 0px;
+padding-top:6%;
+padding-right:0px;
+}
+.hello{width: 100px;
+    height: 105px;
+	}
+}*/
+
+/*4s
+@media screen and (max-device-width : 480px) and (min-device-width : 320px) 
+{*/
+.mainBody .row{
+padding-left: 0px;
+padding-top: auto;
+padding-right:0px;
+}
+.hello{
+width: 31vw;
+height: 24vh;
+}
+
+ /*Iphone 6- moto G
+@media screen and (min-device-width : 375px) and (max-device-width : 677px){
+.mainBody .row{
+padding-left: 0px;
+padding-top:6%;
+padding-right:0px;
+}
+.hello{width: 120px;
+    height: 120px;
+	}
+}
+
+/*Iphone 6+
+@media screen and (min-device-width: 400px) and (max-device-width: 740px) {
+.mainBody .row{
+padding-left: 0px;
+padding-top: 12%;
+padding-right:0px;
+}
+.hello{width: 140px;
+    height: 140px;
+	}
+ }*/
+ 
+ .active{
+	background:bdc3c7;
+ }
+.active h4{
+	visibility:hidden;
+}
+.active h5{
+	visibility:hidden;
+}
+.active h6{
+	visibility:hidden;
+}
+.content {
+	background:#ecf0f1;
+	padding-top:8%;
+}
+.loginheading {
+	text-align:center;
+	font-family: 'quicksand', sans-serif;
+	color:#1aacc3;
+	font-weight:bold;
+	font-size:14vw;
+	padding-top:7.5vh;
+	}
+.titlee {
+	text-align:center;
+	font-family: 'quicksand', sans-serif;
+	color:#1aacc3;
+	font-weight:bold;
+	font-size:5vw;
+}
+#log .list{
+width:100%;
+font-family: 'quicksand', sans-serif;
+}
+#index{
+overflow-y:hidden;
+}
+#cross{
+position:fixed;
+top: 3%;
+left: 5%;
+}
+.button{
+  font-family: 'quicksand', sans-serif;
+}
+.input{
+  font-family: 'quicksand', sans-serif;
+}
+#Logout{
+color:#e74c3c;
+}

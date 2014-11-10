@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width">
+    <title>Signup</title>
+
+    <link rel="stylesheet" href="http://code.ionicframework.com/1.0.0-beta.13/css/ionic.css" />
+    <link rel="stylesheet" href="/stylesheets/application.css" />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha3.js"></script>
+    <script src="/javascripts/onerror.js"></script>
+    <script src="/javascripts/console.log.js"></script>
+
+    <!-- cordova.js is served from localhost to ensure the correct version -->
+    <script src="http://localhost/cordova.js"></script>
+    <script src="/components/steroids-js/steroids.js"></script>
+    <script src="/javascripts/signup.js"></script>
+</head>
+
+<body id="index" class="content">
+    <div class="padding">
+		<img id="cross" onClick="closeSignUp()" src="/icons/backblue.png" height="20" width="20"/>
+		<div class="col">
+			<h1 class="loginheading">CartDrop</h1>
+				<h4 class="titlee">Sign Up Page</h4>
+            <div class="list">
+                <label class="item item-input">
+                    <input id="firstName" type="text" placeholder="First Name">
+                </label>
+                <label class="item item-input">
+                    <input id="lastName" type="text" placeholder="Last Name">
+                </label>
+                <label class="item item-input">
+                    <input id="email" type="email" placeholder="Email@OSU.edu"></textarea>
+                </label>
+				<label class="item item-input">
+                    <input id="password" type="password" placeholder="Password"></textarea>
+                </label>
+				<label class="item item-input">
+                    <input id="cpassword" type="password" placeholder="Confirm Password"></textarea>
+                </label>
+            </div>
+			<button onclick="signup()" class="button button-block button-calm">
+					Sign Up for CartDrop
+			</button>
+        </div>
+    </div>
+</body>
+
+</html>
