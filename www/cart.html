@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
+	<link rel="stylesheet" href="/stylesheets/application.css" />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://code.ionicframework.com/1.0.0-beta.13/css/ionic.css" />
+	<script src="http://localhost/cordova.js"></script>
+	<script src="/components/steroids-js/steroids.js"></script>
+	<script src="/javascripts/cart.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body class="mainBody">
+	<div class="list">
+    <a class="item item-thumbnail-left item-button-right" href="#">
+      <img src="/pictures/groceries/apple.png">
+      <h2>Gala Apple</h2>
+	  <p><label class="item item-input"><span class="input-label">Quantity: </span><input class="quantity" type="number" value="4"></label></p>
+	  <button class="button button-clear button-assertive">
+				<i class="ion-close-circled"></i>
+		</button>
+	</a>
+	<a class="item item-thumbnail-left item-button-right" href="#">
+      <img src="/pictures/groceries/grapes.png">
+      <h2>Grapes</h2>
+	  <p><label class="item item-input"><span class="input-label">Quantity: </span><input class="quantity" type="number" value="2"></label></p>
+	  <button class="button button-clear button-assertive">
+				<i class="ion-close-circled"></i>
+		</button>
+	</a>
+	<a class="item item-thumbnail-left item-button-right" href="#">
+      <img src="/pictures/gaming/xboxone.png">
+      <h2>Xbox One</h2>
+	  <p><label class="item item-input"><span class="input-label">Quantity: </span><input class="quantity" type="number" value="1"></label></p>
+	  <button class="button button-clear button-assertive">
+				<i class="ion-close-circled"></i>
+		</button>
+	</a>
+	<a class="item item-thumbnail-left item-button-right" href="#">
+      <img src="/pictures/clothes/men/graphic.png">
+      <h2>Graphic Tee</h2>
+	  <p><label class="item item-input"><span class="input-label">Quantity: </span><input class="quantity" type="number" value="1"></label></p>
+	  <button class="button button-clear button-assertive">
+				<i class="ion-close-circled"></i>
+		</button>
+	</a>
+	</div>
+	<button onclick="place()" class="button button-block button-outline button-calm">
+		Place Order for drop
+	</button>
+</body>
+</html>

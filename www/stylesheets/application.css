@@ -169,3 +169,8 @@ left: 5%;
 #Logout{
 color:#e74c3c;
 }
+
+.quantity{
+    border-style: solid !important;
+	border-color: black black !important;
+}

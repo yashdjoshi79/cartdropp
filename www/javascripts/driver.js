@@ -13,7 +13,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 				disableDefaultUI:true 
             });
  
-            var viewport_height = $(window).height() - 232;
+            var viewport_height = $(window).height();
             var viewport_width = $(window).width();
  
             $("#map_canvas").css("height", viewport_height);

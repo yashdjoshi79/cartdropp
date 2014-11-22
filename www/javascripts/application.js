@@ -14,10 +14,10 @@ var driver = new steroids.views.WebView("Driver.html");
     }
 };
 if (isMobile.Android()) {
-    steroids.view.navigationBar.show("CartDrop");
+    steroids.view.navigationBar.show("CartDroppp");
     document.write('<div class="button-bar"><a onclick="steroids.modal.show(left)" class="button button-calm"><i class="ion-person"></i>Profile</a><a onclick="steroids.modal.show(left)" class="button button-calm"><i class="ion-person"></i>Profile</a><a onclick="steroids.layers.push({view: driver})" class="button button-calm"><i class="ion-model-s"></i> Delivery</a></div>');
 } else {*/
-    steroids.view.navigationBar.show("CartDrop");
+    steroids.view.navigationBar.show("CartDropp");
 	
 	// three Lines Button
     var threeLines = new steroids.buttons.NavigationBarButton();

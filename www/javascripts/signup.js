@@ -34,7 +34,7 @@ $.getJSON( "https://api.mongolab.com/api/1/databases/stash/collections/users?q={
 		  type: "POST",
 		  contentType: "application/json",
 });
-navigator.notification.alert("Congratulations! You are now one step closer to get the things you want, On your doorstep - The same day. Please confirm your email address and login",closeSignUp(),"Welcome to CartDrop","Got it!");
+navigator.notification.alert("Congratulations! You are now one step closer to get the things you want, On your doorstep - The same day. Please confirm your email address and login",closeSignUp(),"Welcome to CartDropp","Got it!");
   }else{
   navigator.notification.alert("Enter a valid email", null,"Invalid Email", "Got it!");
 }  });

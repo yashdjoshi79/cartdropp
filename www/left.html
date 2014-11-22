@@ -13,14 +13,43 @@
 <body class="profile">
 	<img onClick="cross()" src="/icons/back.png" height="20" width="20"/>
 	<h2 class="textOnProfile">Profile</h2>
-
-	<div class="list card">
-		<a href='#' class="item item-icon-left"><i class="ion-ios7-cart"></i> Cart</a>
-		<a href='#' class="item item-icon-left"><i class="ion-cash"></i> Payments</a>
-		<a href='#' class="item item-icon-left"><i class="ion-card"></i> Reward Cards</a>
-		<a href='#' class="item item-icon-left"><i class="ion-ios7-cog"></i> Account Settings</a>
-		<a href='#' class="item item-icon-left"><i class="ion-model-s"></i> Delivery Man Location</a>
+	<div class="list">
+		<div onClick="cart()" class="item item-button-right">
+			Cart
+			<button class="button button-positive">
+				<i class="ion-ios7-cart"></i>
+			</button>
+		</div>
+		<div onClick="payments()" class="item item-button-right">
+			Payments
+			<button class="button button-positive">
+				<i class="ion-social-usd"></i>
+			</button>
+		</div>
+		<div onClick="rewardCards()" class="item item-button-right">
+			Reward Cards
+			<button class="button button-positive">
+				<i class="ion-card"></i>
+			</button>
+		</div>
+		<div onClick="settings()" class="item item-button-right">
+			Account Settings
+			<button class="button button-positive">
+				<i class="ion-ios7-cog"></i>
+			</button>
+		</div>
+		<div onClick="loc()" class="item item-button-right">
+				Delivery Man Location
+				<button class="button button-positive">
+				<i class="ion-model-s"></i>
+			</button>
+		</div>
+		<div onClick="logOut()" class="item item-button-right">
+				Logout
+				<button class="button button-positive">
+				<i class="ion-social-freebsd-devil"></i>
+			</button>
+		</div>
 	</div>
-	<h2 onClick="logOut()" id="Logout" class="textOnProfile">Log Out</h2>
 </body>
 </html>
